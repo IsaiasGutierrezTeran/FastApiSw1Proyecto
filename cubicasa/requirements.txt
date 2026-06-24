@@ -1,0 +1,10 @@
+# Dependencias de los scripts de CubiCasa (prepare/evaluate).
+#
+# La EVALUACION (evaluate_cubicasa.py) debe correr dentro del entorno conda del
+# modelo (imageTo3D, Python 3.6 / TensorFlow 1.15), que ya incluye numpy, Pillow
+# y la libreria mrcnn de AIAPI. En ese entorno NO hace falta instalar nada extra.
+#
+# La PREPARACION (prepare_cubicasa.py) solo necesita Pillow y puede correr en
+# cualquier Python 3:
+Pillow>=8.0
+numpy>=1.19
